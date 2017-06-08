@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dažbog games</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/jquery-ui.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif] <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+		
+		<link rel="icon" type="image/png" href="images/logo3.png" />
+		<script type="text/javascript">
+			 $(function() {
+      			// $("#lwhDiv").hide();
+      			 $("#hexdiv").hide();
+      			 $("#AQDiv").hide();
+      			 $("#BRDiv").hide();
+      			 $("#TDIDiv").hide();
+      			 $("#SBDiv").hide();
+      			// $(".cl").hide();
+
+      			$( "#lwhDiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true,
+     		 	buttons: {
+      		  Close: function() {
+          $( this ).dialog( "close" );
+        		}
+        		 /*   Redirect function
+        		 More: function() {
+          $( this ).dialog( "close" );
+          window.location.replace("index.html");
+        		}*/
+        			}
+
+
+
+
+    		});
+
+      				$( "#SBDiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true
+    		});
+      					$( "#BRDiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true
+    		});
+      						$( "#AQDiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true
+    		});
+      							$( "#hexdiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true
+    		});
+      								$( "#TDIDiv" ).dialog({
+     		 	minWidth: 500,
+     		 autoOpen: false,
+      		show: {
+        		effect: "blind",
+        		duration: 1000
+      			},
+      			hide: {
+        		effect: "fade",
+       		 duration: 1000
+     		 },
+
+     		 modal: true
+    		});
+ 
+    $( "#lwhslika" ).on( "click", function() {
+      $( "#lwhDiv" ).dialog( "open" );
+    });
+
+
+
+      			//$("#lwhslika").click(function(){
+        		
+    		//	});
+    			$("#hexslika").click(function(){
+        			$( "#hexdiv" ).dialog( "open" );
+    			});
+    			$("#AQslika").click(function(){
+        			$( "#AQDiv" ).dialog( "open" );
+    			});
+    			$("#BRslika").click(function(){
+        			$( "#BRDiv" ).dialog( "open" );
+    			});
+    			$("#TDIslika").click(function(){
+        			$( "#TDIDiv" ).dialog( "open" );
+      			
+    			});
+    				$("#SBSlika").click(function(){
+        		
+      				$( "#SBDiv" ).dialog( "open" );
+      			
+    			});
+
+
+
+
+			});
+
+
+		</script>
+	</head>
+	<body class="single">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html"><img width="35" height="35" src="images/LogoTrans.png" style="margin-bottom:10px;" alt="" /><img src="images/logo2.png" alt=""  height="53"/></a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="About.html">About us</a></li>
+								<li><a  href="Games.html">Games</a></li>
+								<li><a  href="Contact.html">Contact</a></li>
+								
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="icons">
+									<a href="https://www.facebook.com/dazboggames/" class="fa-facebook"><span class="label" target="_blank">Facebook</span></a>
+								</li>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="index.html">
+											<h3>Home</h3>
+											
+										</a>
+									</li>
+									<li>
+										<a href="About.html">
+											<h3>About us</h3>
+											
+										</a>
+									</li>
+									<li>
+										<a href="Games.html">
+											<h3>Games</h3>
+											
+										</a>
+									</li>
+									<li>
+										<a href="Contact.html" >
+											<h3>Contact</h3>
+											
+										</a>
+									</li>
+									
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+
+					<!-- Intro -->
+							<section id="intro">
+								<header>
+									<h2>Games</h2>
+								</header>
+							</section>
+
+
+						<!-- Post 
+							<article class="post">
+						
+							</article>
+-->
+
+					<!-- <div id="lwhDiv">
+
+<div class="cl" style="clear: both;"></div>	
+					</div> 
+					
+					<div id="HexDiv"></div>
+
+					<div id="AQDiv"></div>
+
+					<div id="BRDiv"></div>
+
+					<div id="TDIDiv"></div>		-->
+
+
+			
+
+
+						<div id="lista">
+						<ul id="GamesList">
+						<li><a href="#" id ="lwhslika"><img width="350" src="images/lwh.jpg"></a>
+							<div class="innerL" id="lwhDiv" title="Long way home">
+							
+							<img src="">
+							<p>This is a game where all the players take the role of ideas in the head of a very drunk
+
+man trying to return home after a long night of drinking. Each player plans out a single action and then
+
+each action is played out in turn order. The player try to work with each other to accomplish various
+
+goals and tasks, while also trying to keep the other player from fulfilling their own ideas. The winner is
+
+the player with the greatest total of points at the end of the game, which can happen in a number of
+
+different ways: if he sobers up, if he falls unconscious, if he manages to get home or if too much time
+
+passes and his wife finds him out in the street.</p>
+
+						</div> 
+
+						</li>
+						
+						
+
+						<li><a href="#" id ="hexslika"><img width="350" src="images/Hex.jpg"></a>
+							<div id="hexdiv" title="Hexopoly: Landowners">
+						
+							<img src="">
+							<p>is a strategic economical city building game in which the players take the roles
+
+of investors and landowners attempting to profit from their endeavors. Each turn is divided into a city
+
+phase and an action phase, where players take turns build houses, selling them off to residents,
+
+constructing shopping centers, theaters and schools to influence the game board to earn the most
+
+money. Ever building and land deeds the players acquire adds to the end score. The player with the
+
+highest score and value of land, buildings and money in the bank (as well as the lowest number of loans
+
+which count as negative points) at the end of the game wins as the most successful landowner.</p>
+
+						</div> 
+
+
+						</li>
+						
+						<li><a href="#" id ="AQslika"><img width="350" src="images/AQ.jpg"></a><div class="innerL" id="AQDiv" title="Angry Quest">
+						
+							<img src="">
+							<p>The kingdom is under attack by a monster, and who better to save it but an ensemble of
+
+heroes! Each player takes a party of heroes and a quest to defeat the monster plaguing the land, while
+
+trying to stop the other players from accomplishing the quest before they can. Any player can defeat the
+
+guards but the first to defeat the monster itself is the real winner!</p>
+
+						</div> 
+
+						</li>
+						<li><a href="#" id ="BRslika"><img width="350" src="images/BR.jpg"></a><div class="innerL" id="BRDiv" title="Byte Run">
+						
+							<img src="">
+							<p>the player take the rolls of hackers running through codes of data trying to collect what they
+
+need while preventing the other players from reaching their goal before they do. The board is set out by
+
+tiles with different code element presented on them, and ass the players move their pieces from one
+
+space to the other, they perform the various actions on the spaces, reprogramming potentially harmful
+
+effects or sending them to effect other players instead. Some spaces grant victory points in the form of
+
+data, while running through the complete code grands data based on the number of tiles completed.
+
+The first player to reach 10 points of data collected wins.</p>
+
+						</div> 
+
+						</li>
+						<li><a href="#" id ="TDIslika"><img width="350" src="images/2D.jpg"></a><div class="innerL" id="TDIDiv" title="To D Island">
+						
+							<img src="">
+							<p>This is a game about survival on a desserted two dimensional island. Players are stickman who try to survive hazards of the island - the vulcano and monster that lives in it and to build a raft and escape together. The game board consists of two boards, between which the game shifts, and that change perspective on items, board and the way of thinking.</p>
+
+						</div> 
+
+						</li>
+
+						<li><a href="#" id ="SBSlika"><img width="350" src="images/SB.jpg"></a><div class="innerL" id="SBDiv" title="StoneBall">
+						
+							<img src="">
+							<p>- is an abstract game of rugby for 2 players. Each player controls a team of 5 pieces, with the
+
+goal of gaining control of the ball and moving it over the opponent’s end zone. Similar to games like
+
+Chess and Go, players take turns moving one piece at a time as they try to outsmart and outmaneuver
+
+the other player to get the best possible position to win. The winner is the first player to pass the
+
+opponents end-line with a piece carrying the ball.</p>
+
+						</div> 
+
+						</li>
+
+
+								</ul>
+						</div>
+                               
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						
+						
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="UI/jquery-ui.js"></script>
+
+	</body>
+</html>
