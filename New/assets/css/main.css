@@ -1,0 +1,121 @@
+
+
+/* Custom nasa podesavanja */
+
+
+#GamesList {
+	list-style: none;
+
+}
+
+#GamesList li{
+	display: inline-table;
+	margin: 20px;
+	width: 350px;
+
+}
+
+#lista{
+	
+	margin: auto;
+    width: 75%;
+    
+	
+}
+
+.innerL{
+
+
+
+
+}
+
+#aboutList{
+	list-style: none;
+	width: 70%;
+	display: block;
+	margin-left: 20%;
+}
+
+
+#aboutList a{
+
+}
+
+#aboutList li{
+	display: inline-table;
+	
+	margin-right: 50px;
+	width: 110px;
+}
+
+#aboutList li .Ovl{
+	
+   
+    
+}
+
+#Dslika{
+
+	display: block;
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	background-image: url("http://dazboggames.com/images/D1.png");
+
+   
+}
+
+#Pslika{
+
+	display: block;
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	
+	background-image: url("http://dazboggames.com/images/P1.png");
+
+   
+}
+
+
+#Vslika{
+
+	display: block;
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	background-image: url("http://dazboggames.com/images/V1.png");
+
+   
+}
+
+
+#Zslika{
+
+	display: block;
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	
+	background-image: url("http://dazboggames.com/images/Z1.png");
+
+   
+}
+
+#menuTop{
+	height: 60px !important;
+}
+
+
+
+
+
+
+
+/*   Jquery UI CSS */
+
+	
+
+
+
